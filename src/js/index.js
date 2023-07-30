@@ -73,5 +73,5 @@ function onChangeSelect(event) {
         .catch(error => {
             loaderElem.classList.add('is-hidden');
             Notify.failure("Oops! Something went wrong! Try reloading the page!")
-    });
+        });
 }
