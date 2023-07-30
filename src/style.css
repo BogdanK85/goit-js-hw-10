@@ -1,0 +1,43 @@
+img {
+    display: block;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.breed-select {
+    max-width: 450px;
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.cat-info {
+    display: flex;
+    gap: 25px;
+}
+.cat-temperament {
+    font-weight: 500;
+}
+.loader {
+    display: block;
+    box-sizing: border-box;
+    width: 200px;
+    height: 18px;
+    margin: 20px auto;
+    border-radius: 40%;
+
+}
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+.cat-name {
+    font-size: 38px;
+}
+.cat-description {
+    font-size: 24px;
+}
+.cat-temperament {
+    font-size: 28px;
+    font-weight: 500;
+}
